@@ -4,10 +4,11 @@ def display_board
   row= three_spaces + "|" +  three_spaces + "|" + three_spaces
   divider= "-" * 11
   
-  puts row
-  puts divider
-  puts row
-  puts divider
+  for i in 0..1 do
+    puts row
+    puts divider
+  end
+  
   puts row
   
 end
